@@ -10,7 +10,8 @@ module.exports = {
       // Here http://your.webhook.server.com:666/irc-echo
       port: 666,
       domain: 'your.webhook.server.com',
-      hookPath: '/irc-echo'
+      hookPath: '/irc-echo',
+      interface: '0.0.0.0',  // allows requests from all IPs
     },
     // channel name in Slack to post to
     echoChannel: '#irc-echo',
