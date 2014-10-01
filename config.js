@@ -17,6 +17,10 @@ module.exports = {
     echoChannel: '#irc-echo',
     // the name of the bot in Slack
     botName: 'IRCBot',
+    // Whether or not to transfer all messages, regardless of being a command
+    transferAll: false,
+    // Whether or not on has to first has to start line with botname to call commands
+    specifyBotForCmds: false
   },
   irc: {
     // What IRC-server your channel is on
