@@ -7,8 +7,8 @@ module.exports = {
     outgoingWebhookToken: 'your outgoing webhook token',
     outgoingWebhookServer: {
       // What URL Slack should listen to.
-      // Here http://your.webhook.server.com:666/irc-echo
-      port: 666,
+      // Here http://your.webhook.server.com:3666/irc-echo
+      port: 3666,
       domain: 'your.webhook.server.com',
       hookPath: '/irc-echo',
       interface: '0.0.0.0',  // allows requests from all IPs
